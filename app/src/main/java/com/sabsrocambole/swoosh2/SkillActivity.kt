@@ -3,9 +3,9 @@ package com.sabsrocambole.swoosh2
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class activity_league : BaseActivity() {
+class SkillActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_league)
+        setContentView(R.layout.activity_skill)
     }
 }
